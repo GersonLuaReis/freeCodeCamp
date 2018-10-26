@@ -16,7 +16,7 @@ if (condition)
  } 
 ```
 
-Quando a `condition` é verdadeira, o código dentro da seção `if` executado, caso `else` executado. Às vezes você precisaria adicionar uma segunda condição. Para facilitar a leitura, você deve usar `else if` vez de aninhar `if` statements. em vez de escrever:
+Quando a `condition` é verdadeira, o código dentro da seção `if` é executado, caso contrario o trecho dentro de `else` é executado. Às vezes você precisaria adicionar uma segunda condição. Para facilitar a leitura, você deve usar `else if` ao invés de aninhar `if` para afirmações. Em vez de escrever:
 ```
 if (condition) 
  { 
@@ -68,7 +68,7 @@ int number = 3;
  } 
 ```
 
-Observe que o `else` e `else if` seções não forem necessárias, enquanto `if` for obrigatório.
+Observe que o `else` e `else if` não são necessárias, quando `if` for obrigatório.
 
 ## Exemplo
 ```
